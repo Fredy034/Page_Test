@@ -1,0 +1,56 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	/*background:url(../images/01.jpeg); /* Nuestra imagen de fondo */
+    background: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+	background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	line-height:20px;
+}
+
+.contenedor {
+	width: 90%;
+	max-width:900px;
+	margin:auto;
+}
+
+article {
+	background:rgba(20, 20, 37, 0.9);
+	padding:20px;
+	margin:20px 0;
+	color:#fff;
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+article h2 {
+	color:#fff;
+}
+
+article hr {
+	background:#40b0f6;
+	height:5px;
+	border:none;
+}
+
+article p {
+	line-height: 25px;
+}
+
+article h2, article p, article hr {
+	margin-bottom: 20px;
+}
+
+/* background-texturas*/
+	/*body {
+	background:url(bg.jpg); /* Nuestra textura */
+	/*background-repeat:repeat; /* Indicamos que la textura se repetira */
+	/*background-attachment: fixed; /* Establecemos una posicion fija para la textura */
+	/* Eliminamos la propiedad de background-size */
